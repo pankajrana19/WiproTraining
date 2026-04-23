@@ -1,0 +1,13 @@
+import math
+
+radius=int(input('Enter radius:'))
+
+area = math.pi*radius*radius
+print('Area:',area)
+
+print(math.pow(5,3))
+print(math.sin(90))
+print(math.sqrt(32))
+
+
+import os
