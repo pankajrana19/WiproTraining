@@ -1,0 +1,7 @@
+from oopconcept.demoC import C
+from oopconcept.demoA import A
+
+objc=C(10,20,30)
+A.display(self=objc)
+objc.display()
+objc.final()
