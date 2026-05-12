@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-11T19:02:24.546061" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="C:\Wipro Training\RobotFramework\RobotProject\tests\Login.robot">
+<test id="s1-t1" name="Verify User Can Login Successfully" line="5">
+<kw name="Open Demoblaze Application">
+<msg time="2026-05-11T19:02:24.610747" level="FAIL">No keyword with name 'Open Demoblaze Application' found.</msg>
+<status status="FAIL" start="2026-05-11T19:02:24.610654" elapsed="0.000208">No keyword with name 'Open Demoblaze Application' found.</status>
+</kw>
+<kw name="Click Login Menu">
+<status status="NOT RUN" start="2026-05-11T19:02:24.613355" elapsed="0.000040"/>
+</kw>
+<kw name="Enter Login Username">
+<status status="NOT RUN" start="2026-05-11T19:02:24.613841" elapsed="0.000030"/>
+</kw>
+<kw name="Enter Login Password">
+<status status="NOT RUN" start="2026-05-11T19:02:24.614209" elapsed="0.000026"/>
+</kw>
+<kw name="Click Login Button">
+<status status="NOT RUN" start="2026-05-11T19:02:24.614592" elapsed="0.000026"/>
+</kw>
+<kw name="Validate Successful Login">
+<status status="NOT RUN" start="2026-05-11T19:02:24.616828" elapsed="0.000030"/>
+</kw>
+<kw name="Close Application">
+<status status="NOT RUN" start="2026-05-11T19:02:24.617296" elapsed="0.000029"/>
+</kw>
+<status status="FAIL" start="2026-05-11T19:02:24.595014" elapsed="0.022773">No keyword with name 'Open Demoblaze Application' found.</status>
+</test>
+<test id="s1-t2" name="Verify Invalid User Login" line="14">
+<kw name="Open Demoblaze Application">
+<msg time="2026-05-11T19:02:24.638710" level="FAIL">No keyword with name 'Open Demoblaze Application' found.</msg>
+<status status="FAIL" start="2026-05-11T19:02:24.638630" elapsed="0.000168">No keyword with name 'Open Demoblaze Application' found.</status>
+</kw>
+<kw name="Click Login Menu">
+<status status="NOT RUN" start="2026-05-11T19:02:24.640729" elapsed="0.000040"/>
+</kw>
+<kw name="Enter Invalid Login Username">
+<status status="NOT RUN" start="2026-05-11T19:02:24.642347" elapsed="0.000037"/>
+</kw>
+<kw name="Enter Invalid Login Password">
+<status status="NOT RUN" start="2026-05-11T19:02:24.643440" elapsed="0.000034"/>
+</kw>
+<kw name="Click Login Button">
+<status status="NOT RUN" start="2026-05-11T19:02:24.658441" elapsed="0.000059"/>
+</kw>
+<kw name="Validate Invalid Login Alert">
+<status status="NOT RUN" start="2026-05-11T19:02:24.659348" elapsed="0.000048"/>
+</kw>
+<kw name="Close Application">
+<status status="NOT RUN" start="2026-05-11T19:02:24.659934" elapsed="0.000035"/>
+</kw>
+<status status="FAIL" start="2026-05-11T19:02:24.620078" elapsed="0.040407">No keyword with name 'Open Demoblaze Application' found.</status>
+</test>
+<status status="FAIL" start="2026-05-11T19:02:24.548415" elapsed="0.121614"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login" id="s1" pass="0" fail="2" skip="0">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-05-11T19:02:24.589886" level="WARN">Imported resource file 'C:\Wipro Training\RobotFramework\RobotProject\resources\keywords\signup_keywords.robot' is empty.</msg>
+</errors>
+</robot>

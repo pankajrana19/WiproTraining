@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-11T18:03:22.179067" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Wipro Training\RobotFramework\RobotProject\tests">
+<suite id="s1-s1" name="Login" source="C:\Wipro Training\RobotFramework\RobotProject\tests\login.robot">
+<test id="s1-s1-t1" name="Verify User Can Login Successfully" line="5">
+<kw name="Open Demoblaze Application" owner="login_keywords">
+<kw name="Launch Demoblaze Application">
+<msg time="2026-05-11T18:03:22.432091" level="FAIL">No keyword with name 'Launch Demoblaze Application' found.</msg>
+<status status="FAIL" start="2026-05-11T18:03:22.432025" elapsed="0.000137">No keyword with name 'Launch Demoblaze Application' found.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T18:03:22.427542" elapsed="0.004797">No keyword with name 'Launch Demoblaze Application' found.</status>
+</kw>
+<kw name="Click Login Menu" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.432692" elapsed="0.000040"/>
+</kw>
+<kw name="Enter Login Username" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.432973" elapsed="0.000035"/>
+</kw>
+<kw name="Enter Login Password" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.433240" elapsed="0.000033"/>
+</kw>
+<kw name="Click Login Button" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.433533" elapsed="0.000034"/>
+</kw>
+<kw name="Validate Successful Login" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.433795" elapsed="0.000033"/>
+</kw>
+<kw name="Close Application" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.434043" elapsed="0.000032"/>
+</kw>
+<status status="FAIL" start="2026-05-11T18:03:22.426206" elapsed="0.008131">No keyword with name 'Launch Demoblaze Application' found.</status>
+</test>
+<test id="s1-s1-t2" name="Verify Invalid User Login" line="14">
+<kw name="Open Demoblaze Application" owner="login_keywords">
+<kw name="Launch Demoblaze Application">
+<msg time="2026-05-11T18:03:22.437152" level="FAIL">No keyword with name 'Launch Demoblaze Application' found.</msg>
+<status status="FAIL" start="2026-05-11T18:03:22.437109" elapsed="0.000087">No keyword with name 'Launch Demoblaze Application' found.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T18:03:22.435352" elapsed="0.001949">No keyword with name 'Launch Demoblaze Application' found.</status>
+</kw>
+<kw name="Click Login Menu" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.437600" elapsed="0.000035"/>
+</kw>
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.437871" elapsed="0.000034"/>
+</kw>
+<kw name="Enter Invalid Login Password" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.438127" elapsed="0.000033"/>
+</kw>
+<kw name="Click Login Button" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.438417" elapsed="0.000036"/>
+</kw>
+<kw name="Validate Invalid Login Alert" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.438668" elapsed="0.000032"/>
+</kw>
+<kw name="Close Application" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T18:03:22.439082" elapsed="0.000051"/>
+</kw>
+<status status="FAIL" start="2026-05-11T18:03:22.434950" elapsed="0.015890">No keyword with name 'Launch Demoblaze Application' found.</status>
+</test>
+<status status="FAIL" start="2026-05-11T18:03:22.226840" elapsed="0.225475"/>
+</suite>
+<suite id="s1-s2" name="Signup" source="C:\Wipro Training\RobotFramework\RobotProject\tests\signup.robot">
+<test id="s1-s2-t1" name="Verify User Can Signup Successfully" line="5">
+<kw name="Open Demoblaze Application" owner="signup_keywords">
+<kw name="Launch Demoblaze Application" owner="SignupPage">
+<msg time="2026-05-11T18:03:22.481044" level="INFO">Opening browser 'edge' to base url 'https://www.demoblaze.com'.</msg>
+<status status="PASS" start="2026-05-11T18:03:22.480800" elapsed="3.903787"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:22.480331" elapsed="3.904547"/>
+</kw>
+<kw name="Click Signup Menu" owner="signup_keywords">
+<kw name="Click Signup Link" owner="SignupPage">
+<msg time="2026-05-11T18:03:26.389776" level="INFO">Clicking element 'id=signin2'.</msg>
+<status status="PASS" start="2026-05-11T18:03:26.389618" elapsed="0.183709"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:26.389144" elapsed="0.184409"/>
+</kw>
+<kw name="Enter Signup Username" owner="signup_keywords">
+<kw name="Enter Username" owner="SignupPage">
+<msg time="2026-05-11T18:03:26.577554" level="INFO">Typing text 'user7682' into text field 'id=sign-username'.</msg>
+<status status="PASS" start="2026-05-11T18:03:26.577338" elapsed="0.467096"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:26.576878" elapsed="0.467750"/>
+</kw>
+<kw name="Enter Signup Password" owner="signup_keywords">
+<kw name="Enter Password" owner="SignupPage">
+<msg time="2026-05-11T18:03:27.045906" level="INFO">Typing text 'pwdpwdpwd' into text field 'id=sign-password'.</msg>
+<status status="PASS" start="2026-05-11T18:03:27.045754" elapsed="0.242908"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:27.045278" elapsed="0.243585"/>
+</kw>
+<kw name="Click Signup Button" owner="signup_keywords">
+<kw name="Click Register Button" owner="SignupPage">
+<msg time="2026-05-11T18:03:27.290149" level="INFO">Clicking button '//button[text()='Sign up']'.</msg>
+<status status="PASS" start="2026-05-11T18:03:27.289994" elapsed="0.184821"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:27.289588" elapsed="0.185393"/>
+</kw>
+<kw name="Validate Signup Success Message" owner="signup_keywords">
+<kw name="Verify Signup Success Alert" owner="SignupPage">
+<msg time="2026-05-11T18:03:28.502498" level="INFO">This user already exist.</msg>
+<status status="PASS" start="2026-05-11T18:03:27.475986" elapsed="1.026652"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:27.475604" elapsed="1.027177"/>
+</kw>
+<kw name="Close Application" owner="signup_keywords">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-11T18:03:28.503967" elapsed="2.703000"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:28.503571" elapsed="2.703544"/>
+</kw>
+<status status="PASS" start="2026-05-11T18:03:22.479559" elapsed="8.727931"/>
+</test>
+<status status="PASS" start="2026-05-11T18:03:22.453609" elapsed="8.754505"/>
+</suite>
+<status status="FAIL" start="2026-05-11T18:03:22.181182" elapsed="9.028311"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="2" skip="0">Tests</stat>
+<stat name="Login" id="s1-s1" pass="0" fail="2" skip="0">Tests.Login</stat>
+<stat name="Signup" id="s1-s2" pass="1" fail="0" skip="0">Tests.Signup</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-05-11T18:03:22.424826" level="ERROR">Error in file 'C:\Wipro Training\RobotFramework\RobotProject\resources\keywords\login_keywords.robot' on line 3: Importing library 'resources.pages.LoginPage' failed: ModuleNotFoundError: No module named 'resources'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Wipro Training\RobotFramework\RobotProject\.venv\Scripts\robot.exe
+  C:\Wipro Training\RobotFramework\RobotProject\.venv\Scripts\python314.zip
+  C:\Program Files\Python314\DLLs
+  C:\Program Files\Python314\Lib
+  C:\Program Files\Python314
+  C:\Wipro Training\RobotFramework\RobotProject\.venv
+  C:\Wipro Training\RobotFramework\RobotProject\.venv\Lib\site-packages</msg>
+</errors>
+</robot>
